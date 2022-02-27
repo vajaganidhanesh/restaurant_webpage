@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header_section{
+    height: auto;
+    width:100%;
+    background-color: rgb(48, 42, 42);
+    display: inline-block;
+}
+.head_container{
+    height: 60px;
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 0px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.logo{
+    color: white;
+    height: 60px;
+    width:15%;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 200;
+    display:inline-block;
+    vertical-align: top;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.navbar{
+    height: 60px;
+    width: 40%;
+    display: inline-block;
+    font-size: 20px;
+    list-style: none;
+    margin-left: 45%;
+}
+.navigation{
+    list-style: none;
+    font-size: 0;
+    
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+.nav_link{
+    height: 60px;
+    width: 20%;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    line-height: 3;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner{
+    height:500px;
+    width:100%;
+    overflow: hidden;
+}
+
+.image{
+    width: 100%;
+}
+
+/* styling for css */
+.Indian_food , .menu{
+    padding-top:30px;
+    padding-bottom: 30px;
+    background-color: rgb(233 221 221);
+}
+.title_items, .menu_title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 1000;
+}
+.items_container{
+    width: 80%;
+    margin-top : 20px;
+    margin-left: 10%;
+}
+.item_details{
+    height:500px;
+    width: 46%;
+    background-color:white;
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 2.5%;
+    margin-bottom: 30px;
+}
+.item_one{
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+}
+.item_img{
+    width: 100%;
+}
+.about_item {
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item_desc{
+    margin-top: 10px;
+}
+
+/* styling for table booking */
+.table_booking{
+    height: 300px;
+    width: 100%;
+    background-image: url(./assets/banner.jpg);
+    background-size: cover;
+    
+}
+.table_style{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .55);
+
+}
+.table_forms{
+    height:200px;
+    width: 50%;
+    /* background-color: white; */
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 25%;
+}
+.table_title{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.email , .number{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    text-indent: 50px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.number{
+    margin-top: 10px;
+}
+.table_button , .menu_button{
+    color:white;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 40px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 39%;
+    background-color: #FF8C00;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* styling for menu section */
+
+.menu_container{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    /* background-color: red; */
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+.menu_item{
+    width: 24%;
+    height: 300px;
+    background-color:white;
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.menu_contant{
+    width: 100%;
+    overflow: hidden;
+}
+.menu_img{
+    width: 100%;
+    height: 180px;
+}
+.about_menu{
+    padding-top: 0;
+    margin-left: 20px;
+}
+.menu_name{
+    margin-top:5px;
+}
+.menu_button{
+    margin-left: 0;
+}
+
+/* styling for direction section */
+.routMap{
+    background-color: rgb(206, 200, 200);
+}
+.routHeading{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+iframe{
+    margin-left: 140px;
+    width: 78%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+
+/* styling for footer section */
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(75, 73, 73);
+    display: inline-block;
+    color:white;
+}
+.footer_partOne , .footer_partTwo , .footer_partThree{
+    height:260px;
+    width: 23%;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer_partTwo{
+    width: 40%;
+    margin-left:40px;
+}
+.footer_partThree{
+    margin-left: 50px;
+
+}
+.list_links{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    
+}
+.list_header , .list_contactheader{
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.list_item{
+    margin-bottom: 5px;
+}
+.Contact_information{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+.socialmedia_icons{
+    height: 60px;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 60px ;
+}
+.icons_list{
+    list-style: none;
+    
+}
+.social_icons{
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.social_img{
+    height: 40px;
+    width: 40px;
+}
+.list_contactheader{
+    margin-left: 50px;
+}
+.list_contact{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+.list_contactNumber{
+    margin-left: 130px;
+}
+.list_contactAddress{
+    margin-left: 70px;
+}
+.list_contactAddresstwo{
+    margin-left: 100px;
+}
+.list_contactEmail{
+    margin-left: 116px;
+}
+.list_iconHeadings{
+    margin-top: 5px;
+    margin-left: 90px;
+    font-weight: bolder;
+}
+
+@media (min-width:320px) and (max-width:500px) {
+    /* .head_container{
+        height: auto;
+    } */
+    .logo{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .nav_link{
+        line-height: 0;
+        font-size: 15px;
+        text-align: center;
+    }
+    .banner{
+        height: 180px;
+    }
+    .title_items{
+        width:100%;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .Indian_food{
+        padding-top: 0px;
+    }
+    .item_details{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .item_img{
+        height:350px;
+    }
+    .table_style{
+        width: 100%;
+    }
+    .table_title{
+        font-size: 15px;
+    }
+    .table_button{
+        margin-left: 20%;
+        width: 70%;
+        height:30px;
+        font-size: 14px;
+    }
+    .email , .number{
+        margin-left: 5%;
+        width: 100%;
+        text-indent: 14px;
+        font-size: 14px;
+    }
+    .menu_title{
+        font-size: 25px;
+    }
+    .menu_item{
+        width: 100%;
+    }
+    .footer{
+        height: auto;
+        display: block;
+        margin-left: 0px;
+    }
+    .footer_partOne, .footer_partTwo,.footer_partThree{
+        /* display: block; */
+        height: auto;
+        margin: 0px 0px 0px 0px;
+        font-size:14px
+    }
+    .Contact_information{
+        margin-left: 0px;
+    }
+    .list_contactheader, .list_contactAddresstwo{
+        margin-left: 0px;
+    }
+    .list_contactNumber, .list_contactAddress{
+        margin-left: 0px;
+    }
+    .list_contactEmail{
+        margin-left: 0px;
+    }
+    .socialmedia_icons{
+        /* display: block; */
+    }
+    .list_iconHeadings{
+        margin-left: 0px;
+    }
+}
